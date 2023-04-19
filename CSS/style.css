@@ -254,16 +254,6 @@ a {
   }
 }
 
-/* inputs */
-.input {
-  padding: 1.5rem 3.5rem;
-  border: 3px solid var(--color-border);
-  border-radius: 30px;
-  outline: 0;
-  color: var(--color-headings);
-  font-size: 2rem;
-}
-
 /* Inputs */
 .input {
   border-radius: var(--border-radius);
@@ -672,8 +662,9 @@ a {
 
 /* Hero */
 .hero {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 120%);
 }
+
 .hero__tagline {
   font-size: 2rem;
   color: #b9c3cf;
