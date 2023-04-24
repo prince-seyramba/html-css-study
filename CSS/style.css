@@ -494,13 +494,14 @@ a {
 }
 
 .testimonial__image > img {
-  width: 100%;
+  width: auto;
 }
 
 .testimonial__image > .icon-container {
   position: absolute;
   top: 3rem;
-  right: -32px;
+  right: -90%;
+  fill: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -595,6 +596,7 @@ a {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
